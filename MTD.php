@@ -9,7 +9,8 @@
 <body>
 
     <?php
-
+    
+    //Associated list of tasks
     $task = [
         "Title" => "Php homework",
         "Due" => "10/10/2022",
@@ -20,8 +21,11 @@
     ?>
 
     <ul>
+        <!--Runs through a foreach loop-->
         <?php foreach ($task as $key => $val) :?>
+            <!--Prints both the key and value on to the html page with appropriate format-->
             <li><b><?= $key; ?>:</b> <?= $val; ?></li>
+            <!--Ends foreach loop-->
         <?php endforeach; ?>
     </ul>
 
