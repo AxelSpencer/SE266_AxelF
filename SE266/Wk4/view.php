@@ -114,7 +114,7 @@
             </tbody>
     </table>
     </br>
-    <a style="margin-left: 50%;" href="git pull"><b>Add Patient</b></a>
+    <a style="margin-left: 50%;" href="updatePatient.php?action=add"><b>Add Patient</b></a>
 
     <footer class="bg-danger text-center text-white">
             &nbsp;
