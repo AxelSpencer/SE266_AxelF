@@ -1,3 +1,9 @@
+<?php 
+    include __DIR__ . './model.php';
+    include __DIR__ . './functions.php';
+    $patients = getPatients();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,17 +53,6 @@
     </style>
 </head>
 <body>
-    <?php 
-        include __DIR__ . './model.php';
-        include __DIR__ . './functions.php';
-        // if(isPostRequest())
-        // {
-        //     $id = filter_input(INPUT_POST, 'PatientId');
-        //     deletePatient($id);
-        // }
-        $patients = getPatients();
-    ?>
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
         <a class="navbar-brand" href="#"><b>PHP & MySQL</b></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
