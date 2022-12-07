@@ -44,7 +44,6 @@
             color: red
         }
 </style>
-    </style>
 </head>
 <body>
     <?php 
